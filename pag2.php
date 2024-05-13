@@ -18,7 +18,7 @@
                 </h3>
             </div>
         </div>
-        <form action="#" method="post" class="form-control">
+        <form action="processa_user.php" method="post" class="form-control">
             <div class="row mb-3">
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <label for="nomeCompleto">Nome Completo</label>
@@ -62,13 +62,18 @@
             </div>
             <div class="row mb-3">
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                    <button class="btn btn-large btn-success form-control">Cadastrar</button>
+                    <button class="btn btn-large btn-success form-control" name="cadastrar">Cadastrar</button>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                 <button class="btn btn-large btn-secondary form-control">Limpar</button>
                 </div>
             </div>
         </form>
+        <div class="row">
+            <div class="col-12">
+                <h2>git clone https://github.com/hidalgojunior/progweb3_b</h2>
+            </div>
+        </div>
     </div>
 
 
